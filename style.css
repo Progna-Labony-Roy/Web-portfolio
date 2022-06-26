@@ -1,5 +1,13 @@
-*{
+body{
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+
+
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    height: 550px;
 }
 
 .greeting{
@@ -8,6 +16,12 @@
 
 .name{
     font-size: 50px;
+    color: #7D3C98;
+}
+
+.description{
+    margin-bottom: 40px;
+    letter-spacing: 1px;
 }
 
 .half-width{
@@ -17,6 +31,93 @@
     padding: 1%;
 }
 
+.half-width-image{
+    width: 40%;
+    float: left;
+    
+    padding: 1%;
+}
+
 .half-width img{
     width: 100%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(#A3E4D7 ,#1ABC9C ) ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+}
+
+/* ------Second Section------------- */
+.second-section{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 790px;
+}
+
+.half-width2{
+    width: 40%;
+    float: left;
+    margin: 4%;
+    padding: 1%;
+}
+
+.half-width2 img{
+    width: 100%;
+}
+
+/* -----------experience section------------ */
+.exp-head{
+    margin-left: 4%;
+}
+
+.experience{
+    height: 400px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.half-width3{
+    width: 40%;
+    float: left;
+    margin: 2% 4%;
+}
+
+.orange{
+    color: orange;
+    text-decoration: bold;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 20px grey;
+    height: 270px;
+}
+
+.ml{
+    margin-left: 20px;    
+}
+
+#blue{
+    border-left: 6px solid;
+    border-image: linear-gradient(#E74C3C,#E74C3C);
+    border-image-slice: 1;
+}
+
+#orange{
+    border-left: 6px solid;
+    border-image: linear-gradient(#5DADE2,#2874A6);
+    border-image-slice: 1;
+}
+
+/* ----footer----- */
+.footer p{
+    color: grey;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 70px;
+    margin-bottom: 20px;
 }
